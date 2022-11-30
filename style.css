@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+
+}
+.ul{
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    margin-left: 120px ;
+    margin-right: 120px;
+
+}
+
+.text{
+    text-decoration: none;
+    list-style: none;
+    padding:0px 10px;
+    font-size: 15px;
+}
+
+.choose{
+    text-decoration: none;
+    list-style: none;   
+    font-size: 15px;
+    margin: 0px;
+
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.nav-left{
+    display: flex;
+    margin:  0px;
+    padding: 0px;
+}
+.nav-right{
+        display: flex;
+        margin:  0px;
+}
+.language{
+    display: flex;
+    margin: 0px;
+
+}
+.nav-center{
+    background: rgb(191, 204, 205);
+    display: flex;
+justify-content: center;
+height: 100px;
+box-sizing: border-box;
+}
+.nav-logo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 128px;
+    width: 230px;
+    
+}
+.nav-cart{
+    margin-right: 128px;
+    display: flex;
+    width: 400px;    
+}
+.cart-left{
+    display: flex;
+    width: 228px;
+    justify-content: space-evenly;
+    height: 26px;
+    position: relative;
+    top: 40px;
+}
+.cart-left-item{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart-detail{
+    height: 26px;
+    position: relative;
+    top: 40px;
+}
+.cart-right{
+    display: flex;
+    width: 172px;
+    justify-content: flex-end;
+box-sizing: border-box;
+}
+
+.nav-search{
+    width: 650px;
+    display: flex;
+    
+    
+}
+.input-search{
+   margin-top: 31px;
+   margin-bottom:31px ;
+    width: 80%;
+   padding: 5px 21px;
+      
+}
+.button {
+    border:0;
+    padding: 5px 10px;
+    height: 38px;
+    position: relative;
+    top: 31px;
+    left: 5px;
+    background: rgba(13,82,214,1);
+    cursor: pointer;
+    
+}
+.list{
+    color: white;
+    padding: 5px 15px;
+    height: 26px;
+    position: relative;
+    top: 31px;
+    right: 5px;
+    background:rgba(13,82,214,1) ;
+    
+}
+.nav-bot{
+    background: rgba(13,82,214,1);
+    display: flex;
+justify-content: space-between;
+height: 43px;
+border-bottom: 3px solid orange;
+
+
+
+}
+.menu-left{
+    margin-left: 90px;
+    margin-top: 12.7px;
+    margin-bottom: 0px;
+  
+}
+.menu-right{
+    margin-right: 128px;
+    margin-top: 12.7px;
+    margin-bottom: 0px;
+}
+.menu-item{
+    font-weight: 500;
+    color: white;
+}
+
+.menu-side, .phone, .blog{
+    padding: 12px 15px;
+}
+
+.menu-side-1{
+    background: yellow;
+color: black;
+padding-right: 50px;
+} 
+.blog{
+background: yellow;
+color: black;
+
+}
+.content-1{
+    display: flex;
+}
+.content-1-1{
+    flex-basis: 75%;
+}
+.content-1-2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    justify-content: center;
+}
+.pic-1{
+    padding: 19px 10px 19px 0px;
+    border-radius: 4px;
+}
+.pic-2{
+    padding: 7px 10px ;
+    background: rgb(255, 255, 255);
+    
+}
+.content-2{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(58,71,84,1);
+}
+.content-2-item{
+    padding: 35px 100px;
+    
+}
+.textcontent2-item{
+color: white;
+}
+.content-3{
+    margin-top: 50px;
+}
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.p{
+    text-align: center;
+    margin-top: 10px ;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgba(139, 145, 152, 1);
+    font-size: 16px;
+    display: inline-block;
+}
