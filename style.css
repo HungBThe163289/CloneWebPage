@@ -207,10 +207,7 @@ padding-right: 50px;
 .blog{
 background: yellow;
 color: black;
-
-
 }
-
 .menu-side-1:hover{
     background: white;
 color: black;
@@ -242,12 +239,10 @@ color: black;
 .pic-1{
     padding: 19px 10px 19px 0px;
     border-radius: 4px;
-
 }
 .pic-2{
     padding: 7px 10px ;
-    background: rgb(255, 255, 255);
-    
+    background: rgb(255, 255, 255);  
 }
 .content-2{
     display: flex;
@@ -256,7 +251,6 @@ color: black;
 }
 .content-2-item{
     padding: 35px 100px;
-    
 }
 .textcontent2-item{
 color: white;
@@ -334,4 +328,5 @@ color: white;
 }
 .foot-bot-right{
     color: rgb(191, 204, 205);
+    
 }
