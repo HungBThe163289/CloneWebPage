@@ -1,11 +1,13 @@
 body{
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 .ul{
     padding: 0;
 }
 header{
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
 }
@@ -13,14 +15,13 @@ header{
 .wrapper {
     margin-left: 120px ;
     margin-right: 120px;
-
 }
 
 .text{
     text-decoration: none;
     list-style: none;
     padding:0px 10px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .choose{
@@ -39,6 +40,7 @@ header{
     display: flex;
     margin:  0px;
     padding: 0px;
+    
 }
 .nav-right{
         display: flex;
@@ -49,6 +51,16 @@ header{
     margin: 0px;
 
 }
+.nav-top-icon{
+    color: rgb(118, 118, 118);
+}
+.icon-1{
+    margin-right: 5px;
+}
+.icon-3{
+    margin-left: 4px;
+}
+
 .nav-center{
     background: rgb(191, 204, 205);
     display: flex;
@@ -66,7 +78,7 @@ box-sizing: border-box;
 .nav-cart{
     margin-right: 128px;
     display: flex;
-    width: 400px;    
+    width: 400px;  
 }
 .cart-left{
     display: flex;
@@ -74,7 +86,7 @@ box-sizing: border-box;
     justify-content: space-evenly;
     height: 26px;
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 .cart-left-item{
     
@@ -91,6 +103,16 @@ box-sizing: border-box;
     width: 172px;
     justify-content: flex-end;
 box-sizing: border-box;
+}
+.icon-cart{
+    padding: 0px 3px;
+    color: inherit;
+}
+.icon-a{
+    font-size: 25px;
+}
+.icon-b{
+    font-size: 12px;
 }
 
 .nav-search{
@@ -119,19 +141,24 @@ box-sizing: border-box;
 }
 .list{
     color: white;
-    padding: 5px 15px;
-    height: 26px;
+    padding: 5px 20px;
+    height: 39px;
     position: relative;
     top: 31px;
     right: 5px;
     background:rgba(13,82,214,1) ;
     
 }
+.list:hover{
+    color: white;
+    font-weight: 450;
+    background: rgb(0, 0, 120);
+}
 .nav-bot{
     background: rgba(13,82,214,1);
     display: flex;
 justify-content: space-between;
-height: 43px;
+height: 50px;
 border-bottom: 3px solid orange;
 
 
@@ -139,22 +166,37 @@ border-bottom: 3px solid orange;
 }
 .menu-left{
     margin-left: 90px;
-    margin-top: 12.7px;
+    margin-top: 11.9px;
     margin-bottom: 0px;
   
 }
 .menu-right{
     margin-right: 128px;
-    margin-top: 12.7px;
+    margin-top: 11.9px;
     margin-bottom: 0px;
 }
 .menu-item{
     font-weight: 500;
     color: white;
 }
+.menu-item:hover{
+    background-color: white;
+    color: black;
+}
 
-.menu-side, .phone, .blog{
+
+.menu-side, .phone, .blog {
     padding: 12px 15px;
+    
+}
+.menu-side:hover .phone:hover{
+    background-color: white;
+    color: black;
+}
+.phone:hover{
+    background-color: white;
+    color: black;
+
 }
 
 .menu-side-1{
@@ -166,12 +208,30 @@ padding-right: 50px;
 background: yellow;
 color: black;
 
+
+}
+
+.menu-side-1:hover{
+    background: white;
+color: black;
+padding-right: 50px;
+} 
+.blog:hover{
+background: rgb(255, 255, 255);
+color: black;
+}
+.content{
+    display: flex;
+    flex-direction: column;
 }
 .content-1{
     display: flex;
 }
 .content-1-1{
     flex-basis: 75%;
+}
+.hr{
+    margin-left: 610px;
 }
 .content-1-2{
     display: flex;
@@ -182,6 +242,7 @@ color: black;
 .pic-1{
     padding: 19px 10px 19px 0px;
     border-radius: 4px;
+
 }
 .pic-2{
     padding: 7px 10px ;
@@ -214,7 +275,63 @@ color: white;
     margin-top: 10px ;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 40px ;
     color: rgba(139, 145, 152, 1);
     font-size: 16px;
     display: inline-block;
+}
+.content-3-allpic{
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+    text-transform: uppercase;
+    padding: 12px 15px;
+    background: rgb(194, 194, 194); ;
+    margin-bottom: 40px ;
+   
+}
+.tip{
+    margin-top:40px ;
+}
+.tab:hover {
+    background-color: rgba(13,82,214,1);
+    color: white;
+}
+.content-4{
+    background-color: rgb(237, 234, 234);
+}
+.logo-item{
+
+    border: 1 solid rgb(0, 0, 0);
+
+}
+.content-6{
+    background: rgba(58,71,84,1);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.icon-4{
+    padding: 15px 10px;
+    font-size: 40px;
+    
+
+}.foot-content{
+    display:flex ;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+.foot-bot{
+    background-color:rgba(58,71,84,1) ;
+}
+.foot-content{
+    margin-bottom: 20px;
+}
+.foot-bot-right{
+    color: rgb(191, 204, 205);
 }

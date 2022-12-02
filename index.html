@@ -6,50 +6,93 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="style.css" />
+      
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
     </head>
     <body>
-        <div class="header">
+         <div class="header">
             <div class="wrapper">
                 <div class="nav-top">
                     <ul class="nav-left">
                         <li class="text">
-                            <a style="text-decoration: none" href="">Home</a>
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-solid fa-house"></i></span>
+                                    <div>Home</div>
+                                </a>
+                            </div>
                         </li>
                         <li class="text">
-                            <a style="text-decoration: none" href=""
-                                >About Us</a
-                            >
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-brands fa-galactic-republic"></i></span>
+                                    <div>About us</div>
+                                </a>
+                            </div>
                         </li>
                         <li class="text">
-                            <a style="text-decoration: none" href="">Contact</a>
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-regular fa-envelope"></i></span>
+                                    <div>Contact</div>
+                                </a>
+                            </div>
                         </li>
                         <li class="text">
-                            <a style="text-decoration: none" href="">FAQ</a>
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-regular fa-circle-question"></i></span>
+                                    <div>FAQ</div>
+                                    <!-- <div><i class="icon-1 fa-regular fa-circle-question"></i>FAQ<i class="fa-solid fa-sort-down"></i></div> -->
+                                    <span><i class="icon-3 fa-solid fa-sort-down"></i></span>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                     <div class="language">
                         <div class="choose">
-                            <a style="text-decoration: none" href="">
-                                English |</a
-                            >
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-solid fa-earth-americas"></i></i></span>
+                                    <div>English</div>
+                                    <span><i class="icon-3 fa-solid fa-sort-down"></i> |</span>
+                                </a>
+                            </div>
                         </div>
                         <div class="choose">
-                            <a style="text-decoration: none" href="">
-                                US Dollar</a
-                            >
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-solid fa-dollar-sign"></i></span>
+                                    <div>US Doller</div>
+                                    <span><i class="icon-3 fa-solid fa-sort-down"></i></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <ul class="nav-right">
                         <li class="text">
-                            <a style="text-decoration: none" href=""
-                                >More Menus</a
-                            >
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-solid fa-list"></i></span>
+                                    <div>More menus</div>
+                                    <span><i class="icon-3 fa-solid fa-sort-down"></i></span>
+                                </a>
+                            </div>
                         </li>
                         <li class="text">
-                            <a style="text-decoration: none" href=""
-                                >Delivery</a
-                            >
+                            <div>
+                                <a class="nav-top-icon d-flex align-items-center " style="text-decoration: none" href="">
+                                    <span><i class="icon-1 fa-solid fa-truck-fast"></i></span>
+                                    <div>Delivery</div>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -66,42 +109,52 @@
                         >All</a
                     >
                     <input class="input-search" type="text" />
-                    <button class="button">SR</button>
+                    <button class="button">
+                        <i class="fa-solid fa-magnifying-glass" style="font-weight: 700; color:white"></i>
+                    </button>
                 </div>
 
                 <div class="nav-cart">
                     <div class="cart-left">
-                        <!-- <ul class="cart-left-item"
-                            style="
-                                padding-left: 0px;
-                                margin-top: 0px;
-                                margin-bottom: 0px;
-                            "
-                        > -->
+                    
                         <div>
-                            <a style="text-decoration: none" href="">A</a>
+                            <a class="icon-cart d-flex flex-column align-items-center " style="text-decoration: none" href="">
+                                <span><i class="icon-a fa-solid fa-circle-user"></i></span>
+                                <div class="icon-b">Login</div>
+                            </a>
                         </div>
                         <div>
-                            <a style="text-decoration: none" href="">B</a>
-                        </div>
-
-                        <div>
-                            <a style="text-decoration: none" href="">C</a>
+                            <a class="icon-cart d-flex flex-column align-items-center " style="text-decoration: none" href="">
+                                <span><i class="icon-a fa-regular fa-circle-check"></i></span>
+                                <div class="icon-b">Register</div>
+                            </a>
                         </div>
 
                         <div>
-                            <a style="text-decoration: none" href="">D</a>
+                            <a class="icon-cart d-flex flex-column align-items-center " style="text-decoration: none" href="">
+                                <span><i class="icon-a fa-regular fa-heart"></i></i></span>
+                                <div class="icon-b">Wishlist</div>
+                            </a>
                         </div>
 
-                        <!-- </ul> -->
+                        <div>
+                            <a class="icon-cart d-flex flex-column align-items-center " style="text-decoration: none" href="">
+                                <span><i class="icon-a fa-solid fa-code-compare"></i></i></span>
+                                <div class="icon-b">Compare</div>
+                            </a>
+                        </div>
+
+                        </ul> 
                     </div>
-                    <div class="cart-right">
-                        <div class="cart-detail"> 0 item(s) - $0.00</div>
+                    <div class="cart-right ">
+                        <div class="cart-detail">0 item(s) - $0.00</div>
 
-                        <button class="button">ITEM</button>
+                        <button class="button"><i class="fa-regular fa-cart-shopping" style="font-weight: 700; color:white"></i></button>
                     </div>
                 </div>
-            </div>
+          </div> 
+                
+            
 
             <div class="nav-bot">
                 <ul class="menu-left">
@@ -146,8 +199,22 @@
                     >
                 </ul>
             </div>
-        </div>
+        </div> 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         <div class="content">
             <div class="content-1 wrapper">
                 <div class="content-1-1">
@@ -162,10 +229,10 @@
                 <div class="content-1-2">
                     <a href="">
                         <span></span>
-                        <img class="pic-2" src="./img/content-1-2.png" alt="" />
+                        <img class="pic-2" src="./img/assorted-blurred-background-boutique-994523-240x280h.jpg.jfif" width="340" height="232" alt="" />
                     </a>
                     <a href="">
-                        <img class="pic-2" src="./img/content-1-2.png" alt="" />
+                        <img class="pic-2" src="./img/assorted-blurred-background-boutique-994523-240x280h.jpg.jfif" width="340" height="232" alt="" />
                     </a>
                 </div>
             </div>
@@ -205,12 +272,13 @@
             </div>
 
             <div class="content-3 wrapper">
-                <div class="content3-1">
+                <div class="content-3-1">
                     <div class="title">Why buy from us?</div>
                     <div>
                         <hr
+                            class="hr"
                             width="5%"
-                            size="3px"
+                            size="5px"
                             align="center"
                             color="orange"
                         />
@@ -224,8 +292,411 @@
                         <a href="">Learn more</a>
                     </div>
                 </div>
-                <div class="content-3-2">IMG</div>
+                <div class="content-3-2">
+                    <div class="content-3-2-tab d-flex justify-content-center">
+                        <div class="tab">TOP CATEGORY</div>
+                        <div class="tab">ELECTRONICS</div>
+                        <div class="tab">BEAUTY</div>
+                        <div class="tab">FASHION</div>
+                    </div>
+                    <div class="content-3-allpic">
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-4" style="padding-bottom: 55px">
+                <div class="content-3-1 wrapper">
+                    <div class="title tip">Featured Products</div>
+                    <div>
+                        <hr
+                            class="hr"
+                            width="5%"
+                            size="5px"
+                            align="center"
+                            color="orange"
+                        />
+                    </div>
+                    <div class="p">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Repudiandae, consectetur. .Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Amet temporibus eum
+                        possimus libero ut, ab asperiores rerum id tenetur
+                        laboriosam iste quo, mollitia ipsam.
+                    </div>
+                </div>
+                <div class="content-3-2 wrapper">
+                    <div class="content-3-2-tab d-flex justify-content-center">
+                        <div class="tab">TOP CATEGORY</div>
+                        <div class="tab">ELECTRONICS</div>
+                        <div class="tab">BEAUTY</div>
+                        <div class="tab">FASHION</div>
+                    </div>
+                    <div class="content-3-allpic">
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                        <a
+                            class="content-3-pic"
+                            style="text-decoration: none"
+                            href=""
+                        >
+                            <img src="./img/acceso-240x280h.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-5" style="padding-bottom: 55px">
+                <div class="title-brand wrapper">
+                    <div class="title tip">SHOP BY BRAND</div>
+                    <hr
+                        class="hr"
+                        width="5%"
+                        size="5px"
+                        align="center"
+                        color="red"
+                    />
+                    <div
+                        class="logo-brand d-flex justify-content-between wrapper"
+                        style="margin: 0px"
+                    >
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png "
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-6" style="padding-bottom: 55px">
+                <div class="title-brand wrapper">
+                    <div class="title tip" style="color: white">
+                        Improved Gallery Module
+                    </div>
+                    <hr
+                        class="hr"
+                        width="5%"
+                        size="5px"
+                        align="center"
+                        color="orange"
+                    />
+                    <div class="p">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Repudiandae, consectetur. .Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Amet temporibus eum
+                        possimus libero ut, ab asperiores rerum id tenetur
+                        laboriosam iste quo, mollitia ipsam.
+                    </div>
+
+                    <div
+                        class="logo-brand d-flex justify-content-between wrapper"
+                        style="margin: 0px"
+                    >
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png "
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                        <div></div>
+                        <a class="logo-item" href="">
+                            <img
+                                class="logo-pic"
+                                src="/img/sony_logo-150x150w.png"
+                                width="100"
+                                height="100"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="foot-top" style="background-color: rgba(238, 238, 238, 1); "  >
+                <ul class="d-flex justify-content-center " style="margin-bottom:0">
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-facebook"></i></a></li>
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-twitter"></i></a></li>
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-square-instagram"></i></a></li>
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-linkedin-in"></i></a></li>
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-youtube"></i></a></li>
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-skype"></i></a></li>
+                   <li style="list-style: none;" ><a href=""><i class="icon-4 fa-brands fa-google"></i></a></li>
+
+                </ul>
+            </div>
+            <div class="foot-center wrapper d-flex justify-content-around " style="padding-top: 10px ;">
+                <div class="foot-content">
+                    <div style="font-weight: 700; padding: 15px 0px">About us</div>
+                    <div>----------</div>
+                    <a style="text-decoration: none; color: black;" href="">About Us</a>
+                    <a style="text-decoration: none; color: black;" href="">Delivery</a>
+                    <a style="text-decoration: none; color: black;" href="">Privacy Policy</a>
+                    <a style="text-decoration: none; color: black;" href="">Terms & Conditions</a>
+                    <a style="text-decoration: none; color: black;" href="">Custom Links</a>
+
+                </div>
+                <div class="foot-content ">
+                    <div style="font-weight: 700; padding: 15px 0px">Customer Service</div>
+                    <div>----------</div>
+                    <a style="text-decoration: none; color: black;" href="">Contact</a>
+                    <a style="text-decoration: none; color: black;" href="">Returns</a>
+                    <a style="text-decoration: none; color: black;" href="">Site Map</a>
+                    <a style="text-decoration: none; color: black;" href="">Brands</a>
+                    <a style="text-decoration: none; color: black;" href="">Unlimited Links</a>
+                </div>
+                <div class="foot-content ">
+                    <div style="font-weight: 700; padding: 15px 0px">My Account</div>
+                    <div>----------</div>
+                    <a style="text-decoration: none; color: black;" href="">My Account</a>
+                    <a style="text-decoration: none; color: black;" href="">Order History</a>
+                    <a style="text-decoration: none; color: black;" href="">Affiliates</a>
+                    <a style="text-decoration: none; color: black;" href="">Newsletter</a>
+                    <a style="text-decoration: none; color: black;" href="">Gift Certificates</a>
+                </div>
+                <div class="foot-content ">
+                    <div style="font-weight: 700; padding: 15px 0px">Newsletter</div>
+                    <div>----------</div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quasi.
+                </div>
+            </div>
+            <div class="foot-bot d-flex justify-content-between ">
+                <div class="foot-bot-right wrapper">
+                    <div  style="margin: 20px">  Copyright © 2014, Your Store, All Rights Reserved</div>
+                  
+                </div>
+                <div class="visa wrapper d-flex justify-content-around">
+                    <a style="padding:0px 5px; font-size: 40px; color: white" href=""><i class="fa-brands fa-cc-visa"></i></a>
+                    <a style="padding:0px 5px; font-size: 40px; color: white" href=""><i class="fa-brands fa-cc-mastercard"></i></a>
+                    <a style="padding:0px 5px; font-size: 40px; color: white" href=""><i class="fa-brands fa-cc-amex"></i></a>
+                    <a style="padding:0px 5px; font-size: 40px; color: white" href=""><i class="fa-brands fa-cc-discover"></i></a>
+                    <a style="padding:0px 5px; font-size: 40px; color: white" href=""><i class="fa-brands fa-cc-paypal"></i></a>
+                    <a style="padding:0px 5px; font-size: 40px; color: white" href=""><i class="fa-brands fa-cc-stripe"></i></a>
+                </div>
             </div>
         </div>
     </body>
+    <script
+            src="https://kit.fontawesome.com/2a00decf25.js"
+            crossorigin="anonymous"
+        ></script>
 </html>
