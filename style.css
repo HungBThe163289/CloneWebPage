@@ -144,6 +144,7 @@ box-sizing: border-box;
     right: 5px;
     background:rgba(13,82,214,1) ;
     
+    
 }
 .list:hover{
     color: white;
@@ -178,7 +179,7 @@ box-sizing: border-box;
     background: yellow;
     color: black;
     padding-right: 40px;
-}
+}   
 
  .last{
     background: yellow;
@@ -192,15 +193,7 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
-.content-1{
-    display: flex;
-}
-
-.hr{
-    margin-left: 610px;
-}
 .content-1-1{
-    padding: 10px 10px;
     padding-left: 0;
 }
 .content-1-2{
@@ -223,6 +216,7 @@ color: white;
 .content-3{
     margin-top: 50px;
     margin-bottom: 40px;
+
 }
 .title{
     font-weight: 700;
@@ -244,6 +238,38 @@ color: white;
     display: flex;
     justify-content: space-around;
 }
+.content-3-pic, .content-3-0-pic {
+     overflow: hidden ;
+     margin: 10px;
+}
+
+.pic-up{
+    display: none;
+}
+.content-3-0-pic:hover img{   
+    transform: scale(1.05);
+    
+}
+.content-3-pic:hover img{   
+    animation: scaleImg 1s linear;
+    content:url('https://www.journal-theme.com/1/image/cache/catalog/journal3/categories/bagcat-240x280h.jpg')
+}
+@keyframes scaleImg{
+    0%{
+        opacity: 0;
+        transform: scale(1);
+    }50%{
+        opacity:0.5;
+        transform: scale(1.05);
+    }100%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+/* .content-3-pic:hover .pic-up{   
+    transform: scale(1.1);
+    display: block;
+} */
 .tab{
     font-size: 13px;
     font-weight: 700;
@@ -295,4 +321,33 @@ color: white;
 .foot-bot-right{
     color: rgb(191, 204, 205);
     
+}
+/* .hr1{
+    margin-left: 610px;
+} */
+.sub{
+    display: none;
+    position: absolute;  
+    background: rgb(54, 54, 164);
+    list-style: none;
+    padding-left: 0px;
+    
+}
+li:hover ul.sub{
+    display: block;
+    z-index:1;
+    margin-top: 7px;
+
+}
+
+
+.sub-item{
+    display: block;
+    padding: 5px 15px 5px 5px;
+    border-bottom: 1 solid white;
+    
+    
+}
+.sub-item:hover{
+    background: rgb(107, 67, 255);
 }
