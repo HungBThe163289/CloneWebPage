@@ -351,3 +351,13 @@ li:hover ul.sub{
 .sub-item:hover{
     background: rgb(107, 67, 255);
 }
+hr{
+    margin: 10px 0 !important;
+    opacity: 100 !important;
+    border: 0 !important;
+ 
+}
+.hr1{
+    display: flex;
+    justify-content: center;
+}
